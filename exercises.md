@@ -68,7 +68,7 @@ Function: matmult at line 6
 
 
 #### Before:
-
+```
 Timer unit: 1e-09 s
 
 Total time: 6.31831 s
@@ -103,9 +103,9 @@ Line #      Hits         Time  Per Hit   % Time  Line Contents
     29                                           
     30       251      62000.0    247.0      0.0      for r in result:
     31       250   71457000.0 285828.0      1.1          print(r)
-
+```
 #### After:
-
+```
 Timer unit: 1e-09 s
 
 Total time: 0.039587 s
@@ -124,3 +124,4 @@ Line #      Hits         Time  Per Hit   % Time  Line Contents
     14         1     497000.0 497000.0      1.3      Y = np.random.randint(0, 101, size=(N, N+1))
     15         1   10549000.0 1.05e+07     26.6      result = np.dot(X, Y)
     16         1          0.0      0.0      0.0      return result
+```
