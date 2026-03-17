@@ -28,7 +28,7 @@ class Die:
             return("---------\n|*     *|\n|       |\n|*     *|\n---------")
         elif self.value == 5:
             return("---------\n|*     *|\n|   *   |\n|*     *|\n---------")
-        else:
+        elif self.value == 6:
             return("---------\n|*     *|\n|*     *|\n|*     *|\n---------")
 
     @classmethod
