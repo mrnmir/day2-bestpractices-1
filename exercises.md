@@ -40,12 +40,14 @@ dangerous_fish.printMembers()
 ```
 
 #### g. Run ```ruff``` on the files of your package
-
+#### Added to the directory as ```classes_packcages``` directory
 ## 2. Debugging
 Investigate buggy code using the *pdb* or *ipdb* debugger. Have a look at slides of this mornings's session for help.
 
 #### a. Find all the bugs in the dicegame
 Clone this repo (if you have not already done so), go to ```buggy```  and run the ```main.py``` with a debug tracer added to the code. Once you have fixed all errors, the game should correctly add up the values of the dice for 6 consecutive turns.
+
+#### I debugged and changed the code in the folder
 
 #### b. If you cannot get enough of debugging
 Ask your neighbour to introduce more bugs into the above (or any other) code examples and try to find the bug using the debugger. 
@@ -56,15 +58,14 @@ In this section, you should get more familiar with code profiling, in particular
 #### a. Investigate the performance of the ```matmult.py``` script
 In which line(s) of the script would you start optimizing for speed?
 
+#### I added the solution as a new file
+
 #### b. Investigate the performance of the ```euler72.py``` script
 In which line(s) of the script would you start optimizing for speed?
 (This is one problem from the euler project: [https://projecteuler.net/problem=72](https://projecteuler.net/problem=72))
 
 #### c. Improve the performance of the ```matmult.py``` script
 What is the best performance that you achieved with N=250?
-
-File: /Users/mirma246/Desktop/python_course_day2/day2-bestpractices-1/matmult.py
-Function: matmult at line 6
 
 
 #### Before:
